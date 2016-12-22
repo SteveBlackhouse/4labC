@@ -63,7 +63,7 @@ public:
 };
 
 
-class Busses :public Transport {
+class Busses : public Transport {
 public:
 	virtual void out() = 0;
 };
